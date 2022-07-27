@@ -6,6 +6,12 @@ import {
   HomeOutlined,
   LinkOutlined,
 } from "@ant-design/icons";
+import img1 from "../src/images/Screenshot_1.png";
+import img2 from "../src/images/Screenshot_2.png";
+import img3 from "../src/images/Screenshot_3.png";
+import img4 from "../src/images/Screenshot_4.png";
+import img5 from "../src/images/Screenshot_5.png";
+import img6 from "../src/images/Screenshot_6.png";
 
 function App() {
   return (
@@ -34,7 +40,7 @@ function App() {
         <RedditOutlined /> Reddit
       </div>
 
-      <div id="terms">
+      <div className="terms">
         <b>Terms: </b>
         <p>
           1. Payment through <b>PayPal</b>, 100% upfront.{" "}
@@ -73,15 +79,72 @@ function App() {
         </p>
       </div>
       <hr />
-      <div>What I can draw:</div>
-      <div>
+      <div className="cans">What I can draw:</div>
+      <div className="canlist">
         <ul>
           <li>
             <p>Anime/Game Fanarts;</p>
+            <li>
+              <p>Your OC;</p>
+            </li>
+            <li>
+              <p>V-Tubers Fanarts;</p>
+            </li>
+            <li>
+              <p>Female or male characters.</p>
+            </li>
           </li>
         </ul>
       </div>
-      <div>What I can't draw:</div>
+      <div className="cants">What I can't draw:</div>
+      <div className="cantlist">
+        <ul>
+          <li>
+            <p>NSFW;</p>
+            <li>
+              <p>Gore;</p>
+            </li>
+            <li>
+              <p>Mecha;</p>
+            </li>
+            <li>
+              <p>Furry (Kemonomimi Ok).</p>
+            </li>
+          </li>
+        </ul>
+        <hr />
+      </div>
+      <div className="terms">
+        <h3>
+          If you're interested, please send me a DM with the following details:
+        </h3>
+        <ul>
+          <li>
+            <p>Character name and source;</p>
+            <li>
+              <p>Idea (Pose, expression, traits, etc.);</p>
+            </li>
+            <li>
+              <p>As many references as possible!</p>
+            </li>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <h2>Headshot/Bust-up</h2>
+      <h2>$30</h2>
+      <img src={img1} alt="img1" />
+      <img src={img2} alt="img2" />
+      <hr />
+      <h2>Waist-up/Half Body</h2>
+      <h2>$40</h2>
+      <img src={img3} alt="img3" />
+      <img src={img4} alt="img4" />
+      <hr />
+      <h2>Full-sized with backgrounds</h2>
+      <h2>$55</h2>
+      <img src={img5} alt="img5" />
+      <img src={img6} alt="img6" />
     </div>
   );
 }
