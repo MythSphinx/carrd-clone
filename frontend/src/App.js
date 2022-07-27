@@ -133,18 +133,18 @@ function App() {
       <hr />
       <h2>Headshot/Bust-up</h2>
       <h2>$30</h2>
-      <img src={img1} alt="img1" />
-      <img src={img2} alt="img2" />
+      <img className="imgs" src={img1} alt="img1" />
+      <img className="imgs" src={img2} alt="img2" />
       <hr />
       <h2>Waist-up/Half Body</h2>
       <h2>$40</h2>
-      <img src={img3} alt="img3" />
-      <img src={img4} alt="img4" />
+      <img className="imgs" src={img3} alt="img3" />
+      <img className="imgs" src={img4} alt="img4" />
       <hr />
       <h2>Full-sized with backgrounds</h2>
       <h2>$55</h2>
-      <img src={img5} alt="img5" />
-      <img src={img6} alt="img6" />
+      <img className="imgs" src={img5} alt="img5" />
+      <img className="imgs" src={img6} alt="img6" />
     </div>
   );
 }
