@@ -20,24 +20,42 @@ function App() {
         <h1>MYTH SPHINX'S COMMISSIONS</h1>
         <h3>Status: OPEN</h3>
       </div>
-      <div id="twitter">
-        <TwitterOutlined /> Twitter
-      </div>
-      <div id="tumblr">
-        <LinkOutlined /> Tumblr
+      <div className="socials">
+        <div id="twitter">
+          <a href="https://twitter.com/myth0028">
+            <TwitterOutlined /> Twitter
+          </a>
+        </div>
+        <div id="reddit">
+          <a href="https://www.reddit.com/user/MythSphinx">
+            <RedditOutlined /> Reddit
+          </a>
+        </div>
       </div>
       <div id="insta">
-        <InstagramOutlined /> Instagram
+        <a href="https://www.instagram.com/myth__art/">
+          <InstagramOutlined /> Instagram
+        </a>
       </div>
+      <div className="socials">
+        <div id="tumblr">
+          <a href="https://mythsphinx.tumblr.com/">
+            <LinkOutlined /> Tumblr
+          </a>
+        </div>
+        <div id="pixiv">
+          <a href="https://www.pixiv.net/en/users/30443444">
+            <HomeOutlined /> Pixiv{" "}
+          </a>
+        </div>
+      </div>
+
       <div className="email">
-        <div>E-mail: mythsphinx28@gmail.com </div>
-        <div> Discord: Myth#2749</div>
-      </div>
-      <div id="pixiv">
-        <HomeOutlined /> Pixiv
-      </div>
-      <div id="reddit">
-        <RedditOutlined /> Reddit
+        <p>
+          {" "}
+          <div>E-mail: mythsphinx28@gmail.com</div>
+          <div>Discord: Myth#2749</div>
+        </p>
       </div>
 
       <div className="terms">
@@ -79,41 +97,50 @@ function App() {
         </p>
       </div>
       <hr />
-      <div className="cans">What I can draw:</div>
-      <div className="canlist">
-        <ul>
-          <li>
-            <p>Anime/Game Fanarts;</p>
-            <li>
-              <p>Your OC;</p>
-            </li>
-            <li>
-              <p>V-Tubers Fanarts;</p>
-            </li>
-            <li>
-              <p>Female or male characters.</p>
-            </li>
-          </li>
-        </ul>
+      <div className="fixingcans">
+        <div className="cans">
+          <b>What I can draw:</b>
+        </div>
+        <div className="cants">
+          <b>What I can't draw:</b>
+        </div>
+        <div className="fixingcans2">
+          <div className="canlist">
+            <ul>
+              <li>
+                <p>Anime/Game Fanarts;</p>
+                <li>
+                  <p>Your OC;</p>
+                </li>
+                <li>
+                  <p>V-Tubers Fanarts;</p>
+                </li>
+                <li>
+                  <p>Female or male characters.</p>
+                </li>
+              </li>
+            </ul>
+          </div>
+
+          <div className="cantlist">
+            <ul>
+              <li>
+                <p>NSFW;</p>
+                <li>
+                  <p>Gore;</p>
+                </li>
+                <li>
+                  <p>Mecha;</p>
+                </li>
+                <li>
+                  <p>Furry (Kemonomimi Ok).</p>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div className="cants">What I can't draw:</div>
-      <div className="cantlist">
-        <ul>
-          <li>
-            <p>NSFW;</p>
-            <li>
-              <p>Gore;</p>
-            </li>
-            <li>
-              <p>Mecha;</p>
-            </li>
-            <li>
-              <p>Furry (Kemonomimi Ok).</p>
-            </li>
-          </li>
-        </ul>
-        <hr />
-      </div>
+      <hr />
       <div className="terms">
         <h3>
           If you're interested, please send me a DM with the following details:
